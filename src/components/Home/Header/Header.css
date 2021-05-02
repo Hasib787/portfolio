@@ -1,0 +1,23 @@
+div{
+    background-color:#1b242f;
+}
+.header{
+    margin-top: -36%;
+}
+.greeting{
+        font-size: 15px;
+        letter-spacing: 4px;
+        display: block;
+        margin-bottom: 20px;
+        color: rgba(198,201,216,.75);
+}
+.title{
+    color: white;
+    line-height: 50px!important;
+    font-family: Montserrat,sans-serif!important;
+}
+.name{
+    text-transform: uppercase;
+}
+
+
