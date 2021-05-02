@@ -7,7 +7,8 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
-            <Particles
+           <div className="particles">
+           <Particles
                 params={{
                     "particles": {
                         "number": {
@@ -25,8 +26,10 @@ const Header = () => {
                             }
                         }
                     }
-                }} />
-            <div className=" col-sm-12 flex text-center header">
+                }} 
+                
+                />
+                 <div className=" col-sm-12 flex text-center header">
                 <p className="greeting">WELCOME TO MY WORLD</p>
                 <h1 className="title">Hi There! <br /><span className="name"> I'm Masud Rana</span></h1>
                <h1 style={{color:'#f9004d'}}>
@@ -43,8 +46,12 @@ const Header = () => {
                     ]}               
                />   
                </h1>
-               <Button variant="primary">Get Resume</Button>
             </div>
+            <section>
+                <p><Button variant="primary">Get Resume</Button></p>
+            </section>
+           </div>
+           
         </div>
     );
 };
