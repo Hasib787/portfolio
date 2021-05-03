@@ -1,12 +1,11 @@
 .s-navbar{
     bottom: 0;
     left: 0;
-    padding: 5px;
- 
+    padding: 10px;
     background: #1b242f;
     border-bottom: 3px solid #04c2c9;
     text-align: left;
-
+    z-index: 99;
 }
 .logo{
     margin-left: 10%;

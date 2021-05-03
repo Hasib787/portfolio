@@ -2,7 +2,7 @@
     background-color:#1b242f;
 }
 .header{
-    margin-top: -36%;
+    margin-top: -38%;
 }
 .greeting{
         font-size: 15px;
@@ -19,8 +19,13 @@
 .name{
     text-transform: uppercase;
 }
-.test {
+.resume-btn {
+    margin-left: -4%;
+    background-color: #008f94!important;
     position: absolute;
   }
+.resume-btn:hover{
+    background-color: #0b5b5e!important;
+}
 
 

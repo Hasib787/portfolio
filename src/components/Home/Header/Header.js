@@ -47,7 +47,7 @@ const Header = () => {
                         ]}
                     />
                 </h1>
-                <Button className="test" variant="primary"><a href="http://" target="_blank" style={{ color: 'white', textDecoration: 'none' }} rel="noopener noreferrer">Get Resume</a></Button>
+                <Button className="resume-btn mt-3 text-center" variant="primary"><a href="http://drive.google.com/file/d/18c3Bu0tOgaVEScBNnvSA5Wukpqc8ucOj/view?usp=sharing" target="_blank" style={{ color: 'white', textDecoration: 'none' }} rel="noopener noreferrer">Get Resume</a></Button>
             </div>
             
         </div>
