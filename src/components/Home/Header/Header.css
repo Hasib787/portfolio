@@ -20,7 +20,7 @@
     text-transform: uppercase;
 }
 .resume-btn {
-    margin-left: -4%;
+    margin-left: -5%;
     font-size: 18px;
     background-color: #f9004d!important;
     border: #f9004d;
@@ -28,6 +28,22 @@
   }
 .resume-btn:hover{
     background-color: #019297!important;
+    transition:  0.5s;
 }
 
-
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) and (max-width: 767.98px){ 
+    .particles {
+        height: 320px;
+    } 
+    .header{
+        margin-top: -55%;
+    }
+    .greeting{
+        color: white;
+    }
+    .resume-btn {
+        margin-left: -15%;
+        
+      }
+ }

@@ -1,7 +1,9 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import Particles from 'react-particles-js';
-import Typical from 'react-typical'
+import Typical from 'react-typical';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 const Header = () => {
@@ -47,7 +49,7 @@ const Header = () => {
                         ]}
                     />
                 </h1>
-                <Button className="resume-btn mt-3 text-center" variant="primary"><a href="http://drive.google.com/file/d/18c3Bu0tOgaVEScBNnvSA5Wukpqc8ucOj/view?usp=sharing" target="_blank" style={{ color: 'white', textDecoration: 'none' }} rel="noopener noreferrer">Get Resume</a></Button>
+                <Button className="resume-btn mt-3 text-center" variant="primary"><a href="http://drive.google.com/file/d/18c3Bu0tOgaVEScBNnvSA5Wukpqc8ucOj/view?usp=sharing" target="_blank" style={{ color: 'white', textDecoration: 'none' }} rel="noopener noreferrer"><FontAwesomeIcon icon={faDownload} />  Get Resume</a></Button>
             </div>
             
         </div>
