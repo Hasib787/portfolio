@@ -1,0 +1,29 @@
+.s-navbar{
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+ 
+    background: #1b242f;
+    border-bottom: 3px solid #04c2c9;
+    text-align: left;
+
+}
+.logo{
+    margin-left: 10%;
+}
+.nav-menu{
+    margin-left: 8%
+}
+.nav-title{
+    color: white!important;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-right: 4%;
+}
+.nav-title:hover{
+    color: #00a1a7!important;
+    transition: color 0.5s;
+}
+.nav-title:active{
+    color: #00a1a7!important;
+}
