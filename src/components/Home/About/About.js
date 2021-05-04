@@ -37,8 +37,19 @@ const About = () => {
                         <p>Websites don't have to be static, I love <br/> making pages come to life.</p>
                     </div>
                 </div>
-                <div>
-
+                <div className="container row col-lg-12 col-md-12">
+                    <div className="col-lg-6 col-sm-12 text-center">
+                        <img src="" alt=""/>
+                        <h2>Who's this guy?</h2>
+                        <p>A self-motivated and enthusiastic Full-Stack Web Developer with a deep interest in JavaScript.</p>
+                    </div>
+                    <div className="col-lg-6 col-sm-12">
+                        <div className="bar flex">
+                            <div className="bar fill">
+                                <div className="tag bold flex"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
