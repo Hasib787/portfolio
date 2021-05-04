@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderNav from '../Shared/HeaderNav/HeaderNav';
+import About from './About/About';
 import Header from './Header/Header';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <HeaderNav />
             <Header/>
+            <About />
         </div>
     );
 };

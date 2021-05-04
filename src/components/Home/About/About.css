@@ -1,0 +1,24 @@
+#about{
+    margin-top: 25%;
+}
+.aboutHeader {
+    color: #444649;
+    text-align: center;
+    font-size: 25pt;
+    text-transform: uppercase;
+    position: relative;
+    position: relative;
+}
+.header-bar{
+    background: #444649;
+    margin-left: 47%;
+    height: 4px;
+    width: 70px;
+}
+.box{
+    color: #616161;
+    margin-top: 15px;
+}
+.box img{
+    width: 44%;
+}
