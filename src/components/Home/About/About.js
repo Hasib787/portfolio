@@ -4,6 +4,7 @@ import fast from '../../../images/fast.JPG';
 import responsive from '../../../images/responsive.JPG';
 import intuitive from '../../../images/intuitive.JPG';
 import dynamic from '../../../images/dynamic.JPG';
+import myphoto from '../../../images/myphoto.png'
 
 
 const About = () => {
@@ -39,15 +40,17 @@ const About = () => {
                 </div>
                 <div className="container row col-lg-12 col-md-12">
                     <div className="col-lg-6 col-sm-12 text-center">
-                        <img src="" alt=""/>
+                        <img src={myphoto} alt=""/>
                         <h2>Who's this guy?</h2>
-                        <p>A self-motivated and enthusiastic Full-Stack Web Developer with a deep interest in JavaScript.</p>
+                        <p>A self-motivated and enthusiastic Full-Stack Web <br/>  Developer with a deep interest in JavaScript.
+                         <br/><a href="#contact">Let's make something special</a></p>
                     </div>
                     <div className="col-lg-6 col-sm-12">
                         <div className="bar flex">
                             <div className="bar fill">
-                                <div className="tag bold flex"></div>
+                                <div className="tag bold flex">JavaScript</div>
                             </div>
+                            <span>80%</span>
                         </div>
                     </div>
                 </div>
